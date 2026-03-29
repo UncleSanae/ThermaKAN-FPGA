@@ -2,10 +2,10 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
--- Date        : Sun Mar 22 16:54:09 2026
+-- Date        : Sun Mar 22 16:54:08 2026
 -- Host        : AyaShameimaru running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               c:/Users/31683/Desktop/Code/FPGA_KANs_IICC/fpga/IICC_imp.gen/sources_1/ip/w_b1/w_b1_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top w_b1 -prefix
+--               w_b1_ w_b1_stub.vhdl
 -- Design      : w_b1
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7k410tffg900-2

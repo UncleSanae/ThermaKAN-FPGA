@@ -4,8 +4,8 @@
 -- Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
 -- Date        : Sun Mar 22 16:56:20 2026
 -- Host        : AyaShameimaru running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               c:/Users/31683/Desktop/Code/FPGA_KANs_IICC/fpga/IICC_imp.gen/sources_1/ip/w_b0/w_b0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top w_b0 -prefix
+--               w_b0_ w_b0_stub.vhdl
 -- Design      : w_b0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7k410tffg900-2

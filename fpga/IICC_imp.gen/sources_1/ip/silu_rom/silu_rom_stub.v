@@ -2,10 +2,10 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-// Date        : Wed Mar 18 12:17:25 2026
+// Date        : Wed Mar 18 12:17:24 2026
 // Host        : AyaShameimaru running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               c:/Users/31683/Desktop/Code/FPGA_KANs_IICC/fpga/IICC_imp.gen/sources_1/ip/silu_rom/silu_rom_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top silu_rom -prefix
+//               silu_rom_ silu_rom_stub.v
 // Design      : silu_rom
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7k410tffg900-2
