@@ -1,0 +1,13 @@
+read_verilog -sv -formal -overwrite {workspace}/sources_1/fsm.v
+read_verilog -sv -formal -overwrite {workspace}/sources_1/addr_ctrl.v
+read_verilog -sv -formal -overwrite {workspace}/sources_1/delay_line.v
+read_verilog -sv -formal -overwrite {workspace}/sources_1/ram.v
+read_verilog -sv -formal -overwrite {workspace}/sources_1/odd_sp_gen.v
+read_verilog -sv -formal -overwrite {workspace}/sources_1/odd_addr_gen.v
+read_verilog -sv -formal -overwrite {workspace}/sources_1/odd_grid_index_gen.v
+read_verilog -sv -formal -overwrite {workspace}/sources_1/get_weight.v
+read_verilog -sv -formal -overwrite {workspace}/sources_1/dsp.v
+read_verilog -sv -formal -overwrite {workspace}/sources_1/adder.v
+read_verilog -sv -formal -overwrite {workspace}/sources_1/top.v
+design -reset-vlog; proc;
+write_json {workspace}/netlist/top.json
